@@ -36,8 +36,8 @@ Feature: Log In
     Examples: 
       | username      | password   | warning                           |
       | Test        | Test        | ERROR: The password you entered for the username Test is incorrect. Lost your password? |
-#      | Tset        | 123        | ERROR: Invalid username. Lost your password? |
-#      | Tset        | !23        | ERROR: Invalid username. Lost your password? |
-#      | Test        |            | ERROR: The password field is empty.          |
-#      |             | 123        | ERROR: The username field is empty.          |
-#      |             |            | Please enter your username and password.     |
+      | Tset        | 123        | ERROR: Invalid username. Lost your password? |
+      | Tset        | !23        | ERROR: Invalid username. Lost your password? |
+      | Test        |            | ERROR: The password field is empty.          |
+      |             | 123        | ERROR: The username field is empty.          |
+      |             |            | Please enter your username and password.     |
